@@ -1,4 +1,4 @@
-FROM zyclonite/zerotier:1.12.1
+FROM zyclonite/zerotier:latest
 
 COPY main.sh /main.sh
 RUN chmod +x main.sh
